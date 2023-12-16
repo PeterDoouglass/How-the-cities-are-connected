@@ -22,4 +22,15 @@ const createDiscordMessage = (error) => {
       message.embeds = embeds;
 console.log(message)
 return message;
+
+          "@babel/highlight": {
+      "version": "7.18.6",
+      "resolved": "https://registry.npmjs.org/@babel/highlight/-/highlight-7.18.6.tgz",
+      "integrity": "sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==",
+      "requires": {
+        "@babel/helper-validator-identifier": "^7.18.6",
+        "chalk": "^2.0.0",
+        "js-tokens": "^4.0.0"
+      }
+    },
 }
