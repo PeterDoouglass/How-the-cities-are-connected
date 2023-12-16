@@ -11,6 +11,7 @@
       "detail_link": "string, link to the Error Reporting Details page for the error group."
     },
 
+    // connecting
 const createDiscordMessage = (error) => {
   var embeds = []
   let message = {
